@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Delight</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .pizza-ad {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 2em;
+        }
+
+        .pizza-ad img {
+            max-width: 50%;
+            border-radius: 10px;
+        }
+
+        .ad-details {
+            max-width: 40%;
+        }
+
+        .ad-details h2 {
+            color: #333;
+        }
+
+        .ad-details a {
+            display: inline-block;
+            background-color: #ff9800;
+            color: #fff;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1em;
+            margin-right: 10px;
+        }
+
+        .order-section {
+            background-color: #f5f5f5;
+            padding: 2em;
+        }
+
+        .order-section h2 {
+            text-align: left;
+        }
+
+        .menu-button a {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #333;
+            color: #fff;
+        }
+
+
+        h2 {
+            text-align: center;
+            margin-bottom: 1em;
+            color: #333;
+        }
+
+        .centered-images {
+            text-align: center;
+        }
+
+        .centered-images img {
+            display: block;
+            margin: 1em auto;
+            max-width: 80%;
+            border-radius: 10px;
+        }
+
+        main {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        main p {
+            margin-bottom: 1em;
+        }
+
+        main img {
+            max-width: 3%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .contact-layout {
+            border: 2px solid #fff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+
+        .red-text {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Pizza Delight</h1>
+        <p>Delicious Pizzas Right at Your Doorstep</p>
+    </header>
+
+    <section class="pizza-ad">
+        <img src="./images/pizza.png" alt="Delicious Pizza">
+        <div class="ad-details">
+            <h2>Try Our Signature Pizzas</h2>
+            <p>Fresh ingredients, mouth-watering flavors, and fast delivery.</p>
+            <a href="#order">Order Now</a>
+            <div class="menu-button">
+                <a href="#menu">Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="order" class="order-section">
+        <h2>How to Order</h2>
+        <ol>
+            <li>Choose your favorite pizza from our menu.</li>
+            <li>Customize your toppings and crust.</li>
+            <li>Place your order online or give us a call.</li>
+            <li>Enjoy your delicious pizza at home!</li>
+        </ol>
+    </section>
+
+    <h2 id="menu">Full Menu</h2>
+    
+    <h2>Our Most Loved Ones</h2>
+    <div class="centered-images">
+        <img src="./images/nvs.png" alt="Delicious Pizza">
+        <p class="red-text">NON VEG SUPREME</p>
+           <P> Bite into supreme delight of Black Olives, Onions, Grilled Mushrooms, Pepper BBQ Chicken, Peri-Peri Chicken, Grilled Chicken Rashers</p>
+
+        <img src="./images/fmh.png" alt="Delicious Pizza">
+        <p class="red-text">FARM HOUSE</p>
+            <p>A pizza that goes ballistic on veggies! Check out this mouth-watering overload of crunchy, crisp capsicum, succulent mushrooms, and fresh tomatoes</p>
+	
+	<img src="./images/pasta.png" alt="Delicious Pizza">
+	<p class="red-text">CREAMY TOMATO PASTA VEG</p>
+	<p>Instant Fusilli Pasta, Creamy Culinary Dressing, Onion, Olive, Green Capsicum, Parsley sprinkle</p>
+    </div>
+
+    <main>
+        <div class="contact-layout">
+            <p>Contact us</p>
+            <p>Facebook</p>
+            <img src="./images/fb.png" alt="Image">
+            <p>Instagram</p>
+            <img src="./images/insta.png" alt="Image">
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2024 Pizza Delight. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
